@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; --ink: #f5eee8; --muted: #b9aaa5; --rose: #efb5c4; }
+* { box-sizing: border-box; }
+html { background: #080707; scroll-behavior: auto; }
+body { margin: 0; background: #080707; color: var(--ink); font-family: "Helvetica Neue", Arial, sans-serif; }
+main { overflow: clip; }
+.scene { position: relative; isolation: isolate; overflow: hidden; }
+.scene-copy { text-wrap: balance; }
+.grain { pointer-events: none; position: absolute; inset: 0; z-index: 5; opacity: .13; mix-blend-mode: screen; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E"); }
+.vignette { pointer-events: none; position: absolute; inset: 0; z-index: 3; background: radial-gradient(circle at center, transparent 26%, rgba(0,0,0,.54) 100%); }
+.serif { font-family: "Iowan Old Style", Baskerville, Georgia, serif; }
+.photo-frame { position: absolute; inset: 9vh 8vw; overflow: hidden; border-radius: 1px; }
+.photo-frame img { height: 100%; width: 100%; object-fit: contain; }
+.chat-bubble { border: 1px solid rgba(255,255,255,.16); background: rgba(255,255,255,.08); backdrop-filter: blur(16px); box-shadow: 0 16px 50px rgba(67, 26, 42, .2); }
+@media (max-width: 640px) { .photo-frame { inset: 14vh 4vw; } .vignette { background: radial-gradient(circle at center, transparent 15%, rgba(0,0,0,.58) 100%); } }

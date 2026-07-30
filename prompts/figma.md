@@ -1,0 +1,1 @@
+Design each scene to match MASTER_SCRIPT before implementation.

@@ -1,0 +1,1 @@
+Build exactly from MASTER_SCRIPT. Do not invent or reorder scenes.

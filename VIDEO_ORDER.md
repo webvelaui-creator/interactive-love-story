@@ -1,0 +1,1 @@
+ending-video.mp4 -> Final scene. Keep original audio. Overlay subtitles only.

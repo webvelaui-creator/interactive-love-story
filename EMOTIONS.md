@@ -1,0 +1,12 @@
+S1 Reflection
+S2 Nostalgia
+S3 Humor
+S4 Playful
+S5 Cozy
+S6 Calm
+S7 Excitement
+S8 Nostalgia
+S9 Humor
+S10 Reflection
+S11 Love
+S12 Closure
